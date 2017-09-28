@@ -1,21 +1,11 @@
 ---
 galaxy_info:
-  author: Tomoyuki Sakurai
+  author: Remco Brink
   description: Configures /etc/resolv.conf
-  company: Reallyenglish
-  license: BSD
+  company: NET2GRID
+  license: MIT
   min_ansible_version: 2.0
   platforms:
-  - name: FreeBSD
-    versions:
-#   - all
-    - 10.3
-  - name: OpenBSD
-    versions:
-    - 6.0
-  - name: Ubuntu
-    versions:
-    - trusty
   - name: EL
     versions:
     - 7
@@ -23,7 +13,5 @@ galaxy_info:
   galaxy_tags:
     - networking
     - DNS
-#    - installer
-#    - web
+
 dependencies:
-#  - { role: username.common, some_parameter: 3 }
